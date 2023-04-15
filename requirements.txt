@@ -1,0 +1,10 @@
+streamlit
+langchain
+openai
+bs4
+pinecone-client
+unstructured
+pypdf
+youtube-transcript-api
+pytube
+tiktoken
