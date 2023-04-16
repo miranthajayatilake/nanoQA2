@@ -26,7 +26,7 @@ image = Image.open('utils/logo.jpg')
 st.image(image, width=200)
 
 # Set the title
-st.title(f'E/{os.environ["EGPTNAME"]}')
+st.title(f'{os.environ["EGPTNAME"]}')
 
 # Initialize embeddings and vector store
 embeddings = OpenAIEmbeddings()
