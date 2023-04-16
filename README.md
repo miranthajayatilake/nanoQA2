@@ -6,6 +6,8 @@
 
 This repo deploys a simple chat webapp that can answer about your custom data provided. It uses OpenAI endpoints, Langchain library and Pinecone vector DB.
 
+[This blog post provids more information about this project](https://medium.com/@miranthaj/harness-the-power-of-chatgpt-to-uncover-insights-from-your-own-data-7b225e72d102)
+
 <img src="./utils/readmeimage.png" height="300">
 
 ## Demo
