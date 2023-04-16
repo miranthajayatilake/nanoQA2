@@ -20,7 +20,7 @@ This repo deploys a simple chat webapp that can answer about your custom data pr
 - Move into directory `cd nanoQA2`
 - Set up your `python>3.8` environment (virtual environment preferred)
 - Install the depedencies `pip install -r requirements.txt`
-- Assign the environment variables by running `bash env-local.sh`. Make sure you you have the following API keys and variables replaced
+- Assign the environment variables by running `bash env-local.sh`. Make sure you have the following API keys and variables replaced
     - OpenAI API key (OPENAI_API_KEY). You can obtain this by creating a account at [OpenAI](https://platform.openai.com/)
     - Pinecone API key and environment name (PINECONE_API_KEY, PINECONE_ENV). Obtain these by making an account at [Pinecone](https://www.pinecone.io/)
         - Next we have to create an index in the Pinecone account. You can use the `create_index.py` to do this. Make sure to provide the parameters as below.
@@ -41,7 +41,7 @@ Fly.io is a very easy-to-use tool to deploy apps
 - Run `flyctl launch`
     - Follow the instructions in the terminal. Give a name to the app and select `N` when asked whether we want any database.
     - Whenprompted to deploy, also select `N`. We have to configure the environment variables before deploying the app
-- Assign the environment variables by running `bash env-flyio.sh`. Make sure you you have the following API keys and variables replaced
+- Assign the environment variables by running `bash env-flyio.sh`. Make sure you have the following API keys and variables replaced
     - OpenAI API key (OPENAI_API_KEY). You can obtain this by creating a account at [OpenAI](https://platform.openai.com/)
     - Pinecone API key and environment name (PINECONE_API_KEY, PINECONE_ENV). Obtain these by making an account at [Pinecone](https://www.pinecone.io/)
         - Next we have to create an index in the Pinecone account. You can use the `create_index.py` to do this. Make sure to provide the parameters as below.
