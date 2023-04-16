@@ -10,7 +10,7 @@ This repo deploys a simple chat webapp that can answer about your custom data pr
 
 ## Demo
 
-<img src="./utils/demo.gif" height="600">
+<img src="./utils/demo.gif">
 
 
 ---
