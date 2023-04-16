@@ -10,7 +10,11 @@ This repo deploys a simple chat webapp that can answer about your custom data pr
 
 ## Demo
 
-<img src="./utils/demo.gif" height="400">
+<video width="320" height="240" controls>
+  <source src="./utils/demo2.mov" type="video/mp4">
+</video>
+
+
 ---
 ## Quickstart
 
