@@ -85,21 +85,6 @@ def execute_query(query):
 
 # Create input field and sample question buttons
 query = st.text_input("Ask a question or tell what to do:", key="input")
-sample_query = None
 
-col1, col2, col3 = st.columns(3)
-with col1:
-    if st.button(os.environ["SQone"]):
-        sample_query = os.environ["SQone"]
-
-with col2:
-    if st.button(os.environ["SQtwo"]):
-        sample_query = os.environ["SQtwo"]
-
-with col3:
-    if st.button(os.environ["SQthree"]):
-        sample_query = os.environ["SQthree"]
-
-# Execute the selected sample query
-if sample_query:
-    execute_query(sample_query)
+if query:
+    execute_query(query)
